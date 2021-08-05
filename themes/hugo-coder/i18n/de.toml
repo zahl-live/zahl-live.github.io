@@ -1,0 +1,60 @@
+[category]
+other = "Kategorie"
+
+[categories]
+other = "Kategorien"
+
+[tag]
+others = "Etikett"
+
+[tags]
+other = "Etiketten"
+
+[series]
+other = "Serie"
+
+[author]
+other = "Autor"
+
+[authors]
+other = "Autoren"
+
+[posts]
+other = "Artikel"
+
+[reading_time]
+one = "Eine Minute lesen"
+other = "{{ .Count }} Minuten Lesezeit"
+
+[page_not_found]
+other = "Seite nicht gefunden"
+
+[page_does_not_exist]
+other = "Diese Seite existiert leider nicht."
+
+[head-back]
+other = "Sie können zu <a href=\"{{ zurückkehren. }}\">Startseite</a>."
+
+[powered_by]
+other = "Gefördert von"
+
+[note]
+other = "Anmerkung"
+
+[tip]
+other = "Hinweis"
+
+[example]
+others = "Beispiel"
+
+[question]
+other = "Frage"
+
+[info]
+other = "info"
+
+[warning]
+other = "bemerken"
+
+[error]
+other = "Error"

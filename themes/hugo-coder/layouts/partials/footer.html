@@ -1,0 +1,14 @@
+{{ if not .Site.Params.hideFooter | default false }}
+  <footer class="footer">
+    <section class="container">
+      {{ with .Site.Params.footerContent | safeHTML }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ if not .Site.Params.hideCopyright }}
+        © 
+        {{ now.Year }}
+        Zahl Coin (ℤ).
+      {{ end }}
+    </section>
+  </footer>
+{{ end }}

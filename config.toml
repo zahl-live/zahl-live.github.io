@@ -1,0 +1,130 @@
+title = "Zahl Live Community"
+theme = "hugo-coder"
+baseURL = "https://zahl.live/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+[params]
+	author = "ZAHL"
+	description = "An educational, vocational and recreational initiative which maintains Zahl Coin (ℤ) and other related projects."
+	info = ["Learners, Workers and Players", "Cryptocurrency"]
+	footerContent = "A new crypto for the public benefit."
+	keywords = "crypto,defi,blockchain,stellar,polkadot"
+
+	favicon_32 = "/img/favicon-32x32.png"
+	favicon_16 = "/img/favicon-16x16.png"
+	avatarURL = "/img/avatar.jpg"	
+	# gravatar = "info@zahl.live"
+
+	dateFormat = "2 January 2006"
+	hideFooter = false
+	rtl = false
+	# Specify light/dark colorscheme
+	# Supported values:
+	# "auto" (use preference set by browser)
+	# "dark" (dark background, light foreground)
+	# "light" (light background, dark foreground) (default)
+	colorScheme = "auto"
+	hideColorSchemeToggle = false
+	maxSeeAlsoItems = 5
+	enableEmoji = true
+	# Custom CSS
+	customCSS = []
+	# Custom JS
+	customJS = []
+
+[params.csp]
+	childsrc = ["'self'"]
+	fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+	formaction = ["'self'"]
+	framesrc = ["'self'"]
+	imgsrc = ["'self'"]
+	objectsrc = ["'none'"]
+	stylesrc = [
+	  "'self'",
+	  "'unsafe-inline'",
+	  "https://fonts.googleapis.com/",
+	  "https://cdn.jsdelivr.net/"
+	]
+	scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+	prefetchsrc = ["'self'"]
+	# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+	connectsrc = ["'self'", "https://www.google-analytics.com"]
+
+[taxonomies]
+	category = "categories"
+	series = "series"
+	tag = "tags"
+	author = "authors"
+
+[[params.social]]
+	name = "Twitter"
+	icon = "fa fa-twitter fa-2x"
+	weight = 1
+	url = "https://twitter.com/ZahlCoin/"
+[[params.social]]
+	name = "Keybase"
+	icon = "fa fa-keybase fa-2x"
+	weight = 2
+	url = "https://keybase.io/team/zahlcoin/"
+[[params.social]]
+	name = "GitHub"
+	icon = "fa fa-github fa-2x"
+	weight = 3
+	url = "https://github.com/zahl-live/"
+[[params.social]]
+	name = "RSS"
+	icon = "fa fa-rss fa-2x"
+	weight = 4
+	url = "https://zahl.live/index.xml"
+	rel = "alternate"
+	type = "application/rss+xml"
+
+[languages.en]
+	languageName = ":uk:"
+
+[[languages.en.menu.main]]
+	name = "About ZAHL"
+	weight = 1
+	url = "zahlcoin/"
+
+[[languages.en.menu.main]]
+	name = "Read articles"
+	weight = 3
+	url = "posts/"
+
+[[languages.en.menu.main]]
+	name = "Get in touch"
+	weight = 4
+	url = "contact/"
+
+[languages.de]
+languageName = ":de:"
+
+[languages.de.params]
+	author = "ZAHL"
+	description = "Eine Initiative für Bildung, Beruf und Erholung. Wir pflegen Zahl Coin (ℤ) und andere verwandte Projekte."
+	info = ["Lernende, Arbeiter und Spieler", "Kryptowährung"]
+	footerContent = "Eine Krypto zum Wohle der Allgemeinheit."
+	keywords = "krypto,defi,blockchain,stellar,polkadot"
+
+[[languages.de.menu.main]]
+	name = "Über ZAHL"
+	weight = 1
+	url = "zahlcoin/"
+
+[[languages.de.menu.main]]
+	name = "Artikel lesen"
+	weight = 2
+	url = "posts/"
+
+[[languages.de.menu.main]]
+	name = "Kontaktiere uns"
+	weight = 3
+	url = "contact/"
+
