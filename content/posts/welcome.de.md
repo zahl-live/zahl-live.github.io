@@ -1,8 +1,8 @@
 +++
 author = "Zahlatoshi Communito"
-title = "Willkommen in der Zahl Live-Community"
+title = "Willkommen in der Gemeinschaft"
 date = "2021-03-14"
-description = "A brief description of the project."
+description = "Eine kurze Beschreibung des Projekts."
 +++
 
 ## Hallo, Welt!

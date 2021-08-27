@@ -1,6 +1,6 @@
 +++
 author = "Zahlatoshi Communito"
-title = "Welcome to the Zahl Live Community"
+title = "Welcome to the Community"
 date = "2021-03-14"
 description = "A brief description of the project."
 +++

@@ -18,7 +18,7 @@ pygmentsCodeFencesGuessSyntax = true
 
 	favicon_32 = "/img/favicon-32x32.png"
 	favicon_16 = "/img/favicon-16x16.png"
-	avatarURL = "/img/avatar.jpg"	
+	avatarURL = "/img/coin.png"	
 	# gravatar = "info@zahl.live"
 
 	dateFormat = "2 January 2006"
@@ -63,27 +63,25 @@ pygmentsCodeFencesGuessSyntax = true
 	author = "authors"
 
 [[params.social]]
-	name = "Twitter"
-	icon = "fa fa-twitter fa-2x"
+	name = "Telegram"
+	icon = "fa fa-telegram fa-2x"
 	weight = 1
-	url = "https://twitter.com/ZahlCoin/"
+	url = "https://t.me/zahlcoin"
 [[params.social]]
 	name = "Keybase"
 	icon = "fa fa-keybase fa-2x"
 	weight = 2
 	url = "https://keybase.io/team/zahlcoin/"
 [[params.social]]
+	name = "Twitter"
+	icon = "fa fa-twitter fa-2x"
+	weight = 3
+	url = "https://twitter.com/ZahlCoin/"
+[[params.social]]
 	name = "GitHub"
 	icon = "fa fa-github fa-2x"
-	weight = 3
-	url = "https://github.com/zahl-live/"
-[[params.social]]
-	name = "RSS"
-	icon = "fa fa-rss fa-2x"
 	weight = 4
-	url = "https://zahl.live/index.xml"
-	rel = "alternate"
-	type = "application/rss+xml"
+	url = "https://github.com/zahl-live/"
 
 [languages.en]
 	languageName = ":uk:"
