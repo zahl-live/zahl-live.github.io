@@ -1,0 +1,37 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+SIGNING_KEY="GDUWX4H5A7XBRQPDPZJQY7CSLJYUZQZKNHLFLHWDAWZNMEIF7WPZ4OU3"
+ACCOUNTS=[
+"GBVZHTTYOEYFRS725WU2WQ3D7N76AR4CI4TDS4MF4D3PNHQVGQXH5AHC",
+"GBN3E5JD6ALHO4AFGJ4TQCLQTCV74NOOQLZLISTB62XX55IBUQVQBP2P"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="Zahl Live Community"
+ORG_DESCRIPTION="An educational, vocational and recreational initiative for the public benefit."
+ORG_URL="https://zahl.live"
+ORG_LOGO="https://zahl.live/img/coin.png"
+ORG_PHYSICAL_ADDRESS="Terra, Milky Way"
+ORG_OFFICIAL_EMAIL="info@zahl.live"
+ORG_KEYBASE="zahl"
+ORG_TWITTER="ZahlCoin"
+ORG_GITHUB="zahl-live"
+
+[[PRINCIPALS]]
+name="Zahlatoshi Communito"
+email="zahl@tutanota.de"
+keybase="zahl"
+twitter="ZahlCoin"
+github="zahlatoshi"
+
+[[CURRENCIES]]
+code="ZAHL"
+issuer="GDUWX4H5A7XBRQPDPZJQY7CSLJYUZQZKNHLFLHWDAWZNMEIF7WPZ4OU3"
+is_asset_anchored="false"
+image="https://zahl.live/img/coin.png"
+name="Zahl Coin"
+desc="An educational, vocational and recreational cryptocurrency for the public benefit."
+conditions="There is a total supply of 5 billion utility tokens only, and it will be distributed to the community on a first-come, first-served basis. No presales have been made, and there will be no such thing as security token offering."
+fixed_number=5000000000
+display_decimals=0
+
