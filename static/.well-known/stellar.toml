@@ -27,7 +27,7 @@ github="zahlatoshi"
 [[CURRENCIES]]
 code="ZAHL"
 issuer="GDUWX4H5A7XBRQPDPZJQY7CSLJYUZQZKNHLFLHWDAWZNMEIF7WPZ4OU3"
-is_asset_anchored="false"
+is_asset_anchored=false
 image="https://zahl.live/img/coin.png"
 name="Zahl Coin"
 desc="An educational, vocational and recreational cryptocurrency for the public benefit."
